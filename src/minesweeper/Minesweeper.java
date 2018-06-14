@@ -10,11 +10,10 @@ public class Minesweeper {
     /**
      * Constructor.
      */
-    private Minesweeper() {
+    private Minesweeper() { //skuska
         ConsoleUI userInterface = new ConsoleUI();
         Field field = new Field(9, 9, 1);
         userInterface.newGameStarted(field);
-
     }
 
     /**
