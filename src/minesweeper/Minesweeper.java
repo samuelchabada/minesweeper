@@ -14,7 +14,7 @@ public class Minesweeper {
         ConsoleUI userInterface = new ConsoleUI();
         Field field = new Field(9, 9, 1);
         userInterface.newGameStarted(field);
-
+        //nieco svoje napisane
     }
 
     /**
